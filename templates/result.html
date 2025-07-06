@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prediction Result</title>
+    <style>
+        body { background-color: #f0f0f0; font-family: Arial; }
+        .container { margin: 30px auto; width: 400px; padding: 20px; background: white; border-radius: 8px; }
+        .result { color: red; font-size: 24px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Prediction Result</h2>
+        <p>Model predicted that Customer is likely to:</p>
+        <div class="result">{{ result }}</div>
+        <p>Probability of Customer Churning: {{ probability }}</p>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Churn Prediction</title>
+    <style>
+        body { background-color: #dff0ff; font-family: Arial, sans-serif; }
+        .container { margin: 30px auto; width: 400px; padding: 20px; background: white; border-radius: 8px; }
+        input, select { width: 100%; margin: 5px 0; padding: 8px; }
+        button { width: 100%; padding: 10px; background: blue; color: white; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Customer Churn Prediction</h2>
+        <form action="/predict" method="post">
+            <label>Tenure</label><input type="number" name="tenure" required>
+            <label>City Tier</label><input type="number" name="city_tier" required>
+            <label>Warehouse To Home</label><input type="number" name="warehouse_to_home" required>
+            <label>Gender</label>
+            <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label>Hour Spend on App</label><input type="number" name="hour_spend_on_app" required>
+            <label>Number of Device Registered</label><input type="number" name="number_of_device_registered" required>
+            <label>Satisfaction Score</label><input type="number" name="satisfaction_score" required>
+            <label>Marital Status</label>
+            <select name="marital_status">
+                <option value="Married">Married</option>
+                <option value="Single">Single</option>
+                <option value="Divorced">Divorced</option>
+            </select>
+            <label>Number of Address</label><input type="number" name="number_of_address" required>
+            <label>Complain</label><input type="number" name="complain" required>
+            <label>Order Amount Hike From Last Year</label><input type="number" name="order_amount_hike" required>
+            <label>Coupon Used</label><input type="number" name="coupon_used" required>
+            <label>Order Count</label><input type="number" name="order_count" required>
+            <label>Days Since Last Order</label><input type="number" name="days_since_last_order" required>
+            <label>Cashback Amount</label><input type="number" step="0.01" name="cashback_amount" required>
+            <button type="submit">Predict</button>
+        </form>
+    </div>
+</body>
+</html>
