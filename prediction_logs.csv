@@ -1,2 +1,4 @@
 tenure,citytier,warehousetohome,hourspendonapp,numberofdeviceregistered,satisfactionscore,numberofaddress,complain,orderamounthikefromlastyear,couponused,ordercount,daysincelastorder,cashbackamount,gender_female,gender_male,maritalstatus_divorced,maritalstatus_married,maritalstatus_single,prediction,probability
 5,1,1,1,2,2,2,1,1000,2,4,35,100.0,0,1,0,0,1,No Churn,0.1391
+10,1,1,1,1,1,1,1,1,1,1,1,0.0,0,1,0,1,0,No Churn,0.0024
+1,1,1,1,1,1,1,1,1,1,1,1,1.0,0,1,0,1,0,No Churn,0.0479

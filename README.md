@@ -72,10 +72,9 @@ Built with ❤️ using Python, Flask, Docker, and AWS
   Automate deployment with GitHub Actions
 
 ## 📷 Screenshots
-![Screenshot 2025-07-07 004525](https://github.com/user-attachments/assets/9336dc88-7658-4a31-8a84-688a1de9a812)
+![alt text](image.png)
 
-![Screenshot 2025-07-07 004505](https://github.com/user-attachments/assets/f83bd2b5-ea7c-4dcc-b1c2-65aec014a737)
-
+![alt text](image-1.png)
 
 ## 📄 License
 MIT License
