@@ -35,14 +35,14 @@ The app is built with **Flask** for the backend API, packaged with **Docker**, a
 ## ⚙️ How to Run Locally
 
 1. Clone the repo:
-```bash
+
 git clone https://github.com/yourusername/customer-churn-predictor.git
 cd e-commercecustomerchurn
 2. Install dependencies:
-```bash
+
 pip install -r requirements.txt
 3. Start the app:
-```bash
+
 python app.py
 4. Open http://localhost:5000 in your browser.
 
@@ -50,7 +50,7 @@ python app.py
 ##  🐳 Docker
 
 Build and run with Docker:
-```bash
+
 docker build -t churn-predictor .
 docker run -p 5000:5000 churn-predictor
 
